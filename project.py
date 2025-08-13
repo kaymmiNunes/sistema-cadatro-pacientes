@@ -46,8 +46,7 @@ def buscar_paciente():
     if encontrados:
         for p in encontrados:
 
-            print("\n")
-            print("-" * 20)
+            print(("\n"),"-" * 20)
             print(f"Nome: {p['nome']}")
             print(f"Idade: {p['idade']} anos")
             print(f"Telefone: {p['telefone']}")
